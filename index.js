@@ -104,14 +104,14 @@ const startHaruka = async () => {
     }
 
     function title() {
-        console.log(chalk.bold.green(figlet.textSync('Haruka Bot', {
+        console.log(chalk.bold.green(figlet.textSync('AgatZBOT', {
             font: 'Standard',
             horizontalLayout: 'default',
             verticalLayout: 'default',
             width: 80,
             whitespaceBreak: false
         })))
-        console.log(chalk.yellow(`\n${chalk.yellow('Created By Zeeone Ofc')}\n`))
+        console.log(chalk.yellow(`\n${chalk.yellow('Created By AgatZ')}\n`))
     }
     const store = makeInMemoryStore({
         logger: pino().child({
